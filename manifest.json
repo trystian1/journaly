@@ -1,0 +1,26 @@
+{
+  "short_name": "Journaly",
+  "name": "Journaly, travel app",
+  "background_color": "#4d6b89",
+  "theme_color": "#5bc0de",
+  "icons": [
+    {
+      "src": "app/images/travel-icon.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "app/images/travel-icon.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "app/images/travel-icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "orientation": "portrait"
+}
