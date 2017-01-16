@@ -27,7 +27,6 @@ export const saveEntry = (data) => {
 export const getEntries = (journeyId) => {
   return function(dispatch) {
     return firebase.database().ref('journey/' + journeyId + '/entry/').once('value').then(snapshot => {
-      setRecentEntries(snapshot.val());
       dispatch(getEntriesSucces(snapshot.val()))
     });
 
